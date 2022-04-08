@@ -1,0 +1,110 @@
+body{
+    
+    background-image: url("../imgs/foto.png");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat, repeat-x;
+    background-position: top right, center;
+    background-size: 150%;
+}
+header{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.center{
+    padding: 15px;
+    background: rgb(8, 175, 241);
+    box-shadow:rgb(68, 68, 68) 3px  10px;
+}
+
+h1{
+
+    font-size:180%;
+    height: 30px;
+    color:rgb(3, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li{
+    
+    
+    height: 20px;
+    padding: 5px;
+    color: white;
+    font-size:180%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.botao-adicionar{
+    background-color: #008000;
+    padding: 15px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:180%;
+    color: rgb(255, 255, 255);
+}
+.botao-limpar{
+
+    background-color: #95c70e;
+    padding: 15px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:180%;
+    color: rgb(0, 0, 0);
+}
+h2{
+
+    font-size:180%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow; 
+
+}
+
+h3{
+    color: rgb(115, 19, 226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    text-align: center;
+}
+#mensagem{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+}
+
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.foto1 {
+    border-radius: 60%;
+    border: 5px solid #51c6e4;
+}
+
+section{
+
+    text-align: center;
+}
